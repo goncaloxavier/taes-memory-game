@@ -13,7 +13,7 @@ app.use(createPinia())
 app.use(router)
 
 // Default Axios configuration
-axios.defaults.baseURL = 'http://localhost/api'
+axios.defaults.baseURL = 'http://192.168.1.70/api'
 
 
 app.mount('#app')
